@@ -2540,11 +2540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\BlazorApp.csproj",
+      "projectUniqueName": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\BlazorApp.csproj",
+      "projectPath": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\BlazorApp.csproj",
       "packagesPath": "C:\\Users\\AvielSkrypnyk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\obj\\",
+      "outputPath": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

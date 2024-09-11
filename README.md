@@ -2,7 +2,7 @@
 
 <!-- Centering the logo image and resizing it -->
 <div align="center">
-    <img src="https://github.com/AvielSrypnyk/Blazor-Recipes/blob/main/BlazorApp/wwwroot/images/logo.png" alt="Logo" width="150px">
+    <img src="https://github.com/AvielSrypnyk/Recipe-Web-Project/blob/main/BlazorApp/wwwroot/images/logo.png" alt="Logo" width="150px">
 </div>
 
 ## About

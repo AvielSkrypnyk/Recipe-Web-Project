@@ -1,71 +1,71 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\app.css",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\AppDbContext.cs",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\data\\AppDbContext.cs",
       "PackagePath": "staticwebassets\\data\\AppDbContext.cs"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\database.db",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\data\\database.db",
       "PackagePath": "staticwebassets\\data\\database.db"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\recipes.json",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\data\\recipes.json",
       "PackagePath": "staticwebassets\\data\\recipes.json"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\approve-checked.gif",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\approve-checked.gif",
       "PackagePath": "staticwebassets\\images\\approve-checked.gif"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\eraser.svg",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\eraser.svg",
       "PackagePath": "staticwebassets\\images\\eraser.svg"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\error-checked.gif",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\error-checked.gif",
       "PackagePath": "staticwebassets\\images\\error-checked.gif"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\home.svg",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\home.svg",
       "PackagePath": "staticwebassets\\images\\home.svg"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\journal-alt.svg",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\journal-alt.svg",
       "PackagePath": "staticwebassets\\images\\journal-alt.svg"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\menu-burger.svg",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\menu-burger.svg",
       "PackagePath": "staticwebassets\\images\\menu-burger.svg"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\previous.png",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\previous.png",
       "PackagePath": "staticwebassets\\images\\previous.png"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\recipes_photo\\spaghetti_carbonara.jpg",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\recipes_photo\\spaghetti_carbonara.jpg",
       "PackagePath": "staticwebassets\\images\\recipes_photo\\spaghetti_carbonara.jpg"
     },
     {
-      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\square-plus.svg",
+      "Id": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\square-plus.svg",
       "PackagePath": "staticwebassets\\images\\square-plus.svg"
     },
     {

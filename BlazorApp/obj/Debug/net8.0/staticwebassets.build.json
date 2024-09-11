@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1vYS2xbHbFwRIVb9qWHU2xwP02ns5Hqa6o4tlTcldc0=",
+  "Hash": "Smjs0HDS+qX4XW4ImGg60M9LakRqcW+fz+TGGU8jIJQ=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorApp\\wwwroot",
       "Source": "BlazorApp",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp.styles.css",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp.styles.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\app.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\AppDbContext.cs",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\data\\AppDbContext.cs",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "data/AppDbContext.cs",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\data\\AppDbContext.cs"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\database.db",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\data\\database.db",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "data/database.db",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\data\\database.db"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\recipes.json",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\data\\recipes.json",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "data/recipes.json",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\data\\recipes.json"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\approve-checked.gif",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\approve-checked.gif",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/approve-checked.gif",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\approve-checked.gif"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\eraser.svg",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\eraser.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/eraser.svg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\eraser.svg"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\error-checked.gif",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\error-checked.gif",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/error-checked.gif",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\error-checked.gif"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\home.svg",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\home.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/home.svg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home.svg"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\journal-alt.svg",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\journal-alt.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/journal-alt.svg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\journal-alt.svg"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\logo.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\menu-burger.svg",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\menu-burger.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/menu-burger.svg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu-burger.svg"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\previous.png",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\previous.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/previous.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\previous.png"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\recipes_photo\\spaghetti_carbonara.jpg",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\recipes_photo\\spaghetti_carbonara.jpg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/recipes_photo/spaghetti_carbonara.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\recipes_photo\\spaghetti_carbonara.jpg"
     },
     {
-      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\images\\square-plus.svg",
+      "Identity": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\images\\square-plus.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Recipe-Web-Project\\BlazorApp\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/square-plus.svg",
       "AssetKind": "All",
