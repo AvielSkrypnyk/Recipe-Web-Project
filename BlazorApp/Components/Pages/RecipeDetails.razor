@@ -1,0 +1,124 @@
+﻿@page "/recipe-details/{Id:int}"
+@inject IHttpClientFactory HttpClientFactory
+@using BlazorApp.Models
+@rendermode InteractiveServer
+
+@if (recipe == null)
+{
+    <div class="loading">
+        <LoadingSpinner IsSubmitting="true"></LoadingSpinner>
+        <p>Loading...</p>
+    </div>
+}
+else
+{
+    <div class="recipe-details-page">
+        <div class="recipe-header">
+            <h2>@recipe.Title</h2>
+            @* Uncomment this block for later photo usage *@
+            @*
+        @if (!string.IsNullOrEmpty(recipe.PhotoUrl))
+        {
+        <img class="recipe-photo" src="@recipe.PhotoUrl" alt="Photo of @recipe.Title" />
+        }
+        *@
+        </div>
+        <div class="recipe-content">
+            <div class="recipe-section">
+                <h3>Ingredients</h3>
+                <ul>
+                    @foreach (var ingredient in recipe.Ingredients.Split('\n', StringSplitOptions.RemoveEmptyEntries))
+                    {
+                        <li>@ingredient</li>
+                    }
+                </ul>
+            </div>
+            <div class="recipe-section">
+                <h3>Instructions</h3>
+                <ol>
+                    @foreach (var instruction in recipe.Instructions.Split('\n', StringSplitOptions.RemoveEmptyEntries))
+                    {
+                        <li>@instruction</li>
+                    }
+                </ol>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public int Id { get; set; }
+
+    private Recipe recipe;
+    private HttpClient client;
+
+    protected override async Task OnInitializedAsync()
+    {
+        client = HttpClientFactory.CreateClient("MyApiClient");
+        recipe = await client.GetFromJsonAsync<Recipe>($"api/recipes/{Id}");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @page "/recipe/{recipeid}" *@
+@* @inject IRecepiesStore RecepiesStore *@
+@* *@
+@* <a class="back-link" href="/">Back to all recipes</a>\ *@
+@* *@
+@* <div class="recipe"> *@
+@*     @if (recipe == null) *@
+@*     { *@
+@*         <h1>Recipe not found</h1> *@
+@*     } *@
+@*     else *@
+@*     { *@
+@*         <PageTitle>@recipe.Name</PageTitle> *@
+@*         <h1>@recipe.Name</h1> *@
+@*         <div class="source-and-servings"> *@
+@*             @recipe.SourceShort | Servings: @recipe.Servings *@
+@*         </div> *@
+@*         <img class="recipe-banner" scr="Here must be a banner from json file"> *@
+@*         <div class="recipe-details"> *@
+@*             <h2>Ingredients</h2> *@
+@*             <ul> *@
+@*                 @for (int i = 0; i < recipe.Ingredients.Length; i++) *@
+@*                 { *@
+@*                     string id = $"ingredient{i}"; *@
+@*                     <li> *@
+@*                         <input id="@id" type="checkbox"/> *@
+@*                         <label for="@id">@recipe.Ingredients[i]</label> *@
+@*                     </li> *@
+@*                 } *@
+@*             </ul> *@
+@*             <h2>Instructions</h2> *@
+@*             @foreach (var instruction in recipe.Instructions.Split('\n')) *@
+@*             { *@
+@*                 <p>@instruction</p> *@
+@*             } *@
+@*             { *@
+@*             <p>@instruction</p> *@
+@*             } *@
+@* *@
+@*         </div> *@
+@*     } *@
+@* </div> *@
+@* *@
+@* @code *@
+@* { *@
+@*     Recipe? recipe; *@
+@* *@
+@*     [Parameter, EditorRequired] *@
+@*     public string RecipeId { get; set; } = default!; *@
+@* *@
+@* } *@

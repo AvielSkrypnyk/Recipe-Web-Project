@@ -1,0 +1,32 @@
+﻿@typeparam TEntity
+
+<div class="search-bar-container">
+    <div class="input-group">
+        <input class="form-control search-input" placeholder="Search..." @bind="searchItem" />
+        <button type="button" class="btn btn-primary" @onclick="OnEraserClicked" style="display: @(string.IsNullOrWhiteSpace(searchItem) ? "none" : "block")">
+            <img src="images/eraser.svg" style="width: 25px; height: 25px"/>
+        </button>
+        <button class="btn btn-primary" @onclick="OnSearchClicked">Search</button>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public List<TEntity> Items { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnSearch { get; set; }
+
+    private string searchItem;
+
+    private async Task OnSearchClicked()
+    {
+        await OnSearch.InvokeAsync(searchItem);
+    }
+
+    private async Task OnEraserClicked()
+    {
+        searchItem = string.Empty;
+        await OnSearchClicked(); // For reload a search bar
+    }
+}

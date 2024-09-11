@@ -1,0 +1,55 @@
+﻿@using BlazorApp.Models
+@inject IHttpClientFactory HttpClientFactory
+@rendermode InteractiveServer
+
+<!-- SearchBar component to handle search functionality -->
+<div class="w-100"></div>
+<SearchBar TEntity="Recipe" Items="recipes" OnSearch="UpdateFilteredRecipes" />
+
+<div class="recipe-gallery">
+    @if (filteredRecipes == null)
+    {
+        <!-- Show loading message while fetching recipes -->
+        <p>Loading...</p>
+    }
+    else if (!filteredRecipes.Any())
+    {
+        <!-- Show no recipes available message if the recipes list is empty -->
+        <p>No recipes available.</p>
+    }
+    else
+    {
+        <!-- Iterate over the filtered recipes and display each one using the RecipeCard component -->
+        @foreach (var recipe in filteredRecipes)
+        {
+            <RecipeCard Id="@recipe.Id" Title="@recipe.Title" Ingredients="@recipe.Ingredients" Instructions="@recipe.Instructions" />
+        }
+    }
+</div>
+
+@code {
+    private List<Recipe> recipes;
+    private List<Recipe> filteredRecipes;
+    private HttpClient client;
+
+    protected override async Task OnInitializedAsync()
+    {
+        client = HttpClientFactory.CreateClient("MyApiClient");
+        recipes = await client.GetFromJsonAsync<List<Recipe>>("api/recipes");
+        filteredRecipes = new List<Recipe>(recipes); // Initially, the filtered list is the same as the original list
+    }
+
+    private void UpdateFilteredRecipes(string searchQuery)
+    {
+        if (string.IsNullOrWhiteSpace(searchQuery))
+        {
+            // If the search query is empty, show all recipes
+            filteredRecipes = new List<Recipe>(recipes);
+        }
+        else
+        {
+            // Filter the recipes based on the search query (case-insensitive)
+            filteredRecipes = recipes.Where(r => r.Title.Contains(searchQuery, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+    }
+}

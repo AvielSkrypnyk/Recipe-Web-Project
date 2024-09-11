@@ -1,0 +1,514 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\wwwroot\\data\\recipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\wwwroot\\data\\recipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\submitrecipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\submitrecipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\login.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\wwwroot\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\wwwroot\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\wwwroot\\data\\database.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\wwwroot\\data\\database.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\about.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\about.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\about.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\about.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\recipegallery.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\recipegallery.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\recipedetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\recipedetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\searchbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\searchbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\recipecard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\recipecard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\loadingspinner.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\loadingspinner.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|c:\\users\\avielskrypnyk\\documents\\test solutions\\blazor-recipes\\blazorapp\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469EEDBA-AE5D-4BE5-B59A-01D50C63E997}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Login.razor*",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Login.razor*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T09:50:44.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\wwwroot\\data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\AppDbContext.cs",
+              "RelativeToolTip": "BlazorApp\\wwwroot\\data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:40:03.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "BlazorApp\\Controllers\\RecipeController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwFwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T06:59:47.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "About.razor.css",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\About.razor.css",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\About.razor.css",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\About.razor.css",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\About.razor.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-09T09:53:28.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RecipeCard.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\RecipeCard.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\RecipeCard.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\RecipeCard.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\RecipeCard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T09:07:28.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "recipes.json",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\recipes.json",
+              "RelativeDocumentMoniker": "BlazorApp\\wwwroot\\data\\recipes.json",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\recipes.json",
+              "RelativeToolTip": "BlazorApp\\wwwroot\\data\\recipes.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T07:27:11.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T07:47:52.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "BlazorApp\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\app.css",
+              "RelativeToolTip": "BlazorApp\\wwwroot\\app.css",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAwwFUBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T12:33:15.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T09:48:05.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubmitRecipe.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\SubmitRecipe.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\SubmitRecipe.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\SubmitRecipe.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\SubmitRecipe.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAABsPRgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T08:51:02.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Models\\User.cs",
+              "RelativeToolTip": "BlazorApp\\Components\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:40:18.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RecipeGallery.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\RecipeGallery.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\RecipeGallery.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\RecipeGallery.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\RecipeGallery.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T07:47:37.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T07:46:25.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BlazorApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:33:33.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RecipeDetails.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\RecipeDetails.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\RecipeDetails.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\RecipeDetails.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\RecipeDetails.razor",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAgwAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T06:51:46.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Program.cs",
+              "RelativeToolTip": "BlazorApp\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T08:52:04.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\App.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T13:04:00.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "database.db",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\database.db",
+              "RelativeDocumentMoniker": "BlazorApp\\wwwroot\\data\\database.db",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\wwwroot\\data\\database.db",
+              "RelativeToolTip": "BlazorApp\\wwwroot\\data\\database.db",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIKSURBVDhPrZXfS1NhGMe/EynnCI7roG2w3OaOa4vMcgV2YQjdeWV3QlBmECQIYlMKVMRQYnhRiSQUhQjd9D\u002BsC3HJbhTaav7YHMdIsoGghW5nO72Op9yB98hJ\u002BsDhPc/7fPmc9z0HzmsC8WggmAJUJ5VHYFpXCmgPhUKLNHGIqqolwofqyOgYVfoMDz6G2Wze3vm518qTltH4T9zp7BJOWSrCwWCwkab\u002BcizhGZtdV3os4QF60nIauWxsbiGxJsMvOWGrthbnBEEovscShPIyhNlYdVBwhb/29rH0eQ3Z/Sx2dncRX0kimZYhuR3o7eun1CHsAQLd8rccW07h\u002B1YGhUIegQYf8nkF6Y1vkL9uUkIfrrDR54GiKPA4HXCdtcPrrmV1Dhd8EiX00VlhErlcFrHEKlaSaSzFl1mdw4f5KCX04QptNSL7CGJREp5bQJ6ttlqsQnPTRUrowxXWiFZcb25CA9tixckT8HvduNFyDSlZRvfAIBY/xfAjk6G0Fq7wD7UOOzputsFb58KLV2/x8s0sztd78GxqGtOvZyil5UhhKX6prih70HWbfZxzqJfc1NFiWBj/ksBCNIqJ55OYj3xkV4Q6WgwL797qQM/9e4gwWX9vD54MD1FHi2GheNqKwOVLeP9uFlevBGCxVFJHi2GhUf67sOSP3ceOAJOBI4CHuj7\u002BdMIFAL8B2kWpjQLikHsAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-09-10T12:00:23.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "About.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\About.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\About.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\About.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\About.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T06:49:08.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T12:34:58.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoadingSpinner.razor.css",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\LoadingSpinner.razor.css",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\LoadingSpinner.razor.css",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\LoadingSpinner.razor.css",
+              "RelativeToolTip": "BlazorApp\\Components\\LoadingSpinner.razor.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T13:46:39.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Models\\Recipe.cs",
+              "RelativeToolTip": "BlazorApp\\Components\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:23:10.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T07:47:28.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SearchBar.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\SearchBar.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\SearchBar.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\SearchBar.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\SearchBar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T09:19:29.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "BlazorApp\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAnwBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T08:59:25.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Footer.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Footer.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Footer.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Footer.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Footer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T12:51:23.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T12:35:03.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "BlazorApp\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAFUAAAAAAAAAAIBJwGEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T12:35:27.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "BlazorApp\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAwwGYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T12:36:07.876Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.razor.css",
+              "DocumentMoniker": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Login.razor.css",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Login.razor.css",
+              "ToolTip": "C:\\Users\\AvielSkrypnyk\\Documents\\Test Solutions\\Blazor-Recipes\\BlazorApp\\Components\\Pages\\Login.razor.css",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Login.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-10T14:18:17.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

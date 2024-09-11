@@ -1,0 +1,519 @@
+/* _content/BlazorApp/Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-qgsvw684bo] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-qgsvw684bo] {
+    flex: 1;
+}
+
+.sidebar[b-qgsvw684bo] {
+    background-image: linear-gradient(180deg, #C0C78C 0%, #A6B37D 70%);
+}
+
+.top-row[b-qgsvw684bo] {
+    background-color: #FEFAE0;
+    border-bottom: 1px solid #B99470;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-qgsvw684bo]  a, .top-row[b-qgsvw684bo]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+        color: #A6B37D;
+    }
+
+    .top-row[b-qgsvw684bo]  a:hover, .top-row[b-qgsvw684bo]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-qgsvw684bo]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-qgsvw684bo] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-qgsvw684bo]  a, .top-row[b-qgsvw684bo]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-qgsvw684bo] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-qgsvw684bo] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-qgsvw684bo] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-qgsvw684bo]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-qgsvw684bo], article[b-qgsvw684bo] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+#blazor-error-ui[b-qgsvw684bo] {
+    background: #FEFAE0;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    color: #B99470;
+}
+
+    #blazor-error-ui .dismiss[b-qgsvw684bo] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+/* _content/BlazorApp/Components/Layout/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-g8o6n169oq] {
+    appearance: none;
+    cursor: pointer;
+    width: 3.5rem;
+    height: 2.5rem;
+    color: #FEFAE0;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler:checked[b-g8o6n169oq] {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-row[b-g8o6n169oq] {
+    height: 3.5rem;
+    background-color: #A6B37D;
+}
+
+.navbar-brand[b-g8o6n169oq] {
+    font-size: 1.1rem;
+    color: #FEFAE0;
+}
+
+.fi[b-g8o6n169oq] {
+    display: inline-block;
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 5px;
+    top: -1rem;
+    background-size: cover;
+}
+
+.fi-fi-sr-home[b-g8o6n169oq] {
+    background-image: url("images/home.svg");
+}
+
+.fi-fi-sr-square-plus[b-g8o6n169oq] {
+    background-image: url("images/square-plus.svg");
+}
+
+.fi-fi-sr-menu-burger[b-g8o6n169oq] {
+    background-image: url("images/menu-burger.svg");
+}
+
+.fi-fi-sr-journal-alt[b-g8o6n169oq] {
+    background-image: url("images/journal-alt.svg");
+}
+
+.nav-item[b-g8o6n169oq] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-g8o6n169oq] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-g8o6n169oq] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-g8o6n169oq]  .nav-link {
+        color: #FEFAE0;
+        background: none;
+        border: none;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+        width: 100%;
+    }
+
+.nav-item[b-g8o6n169oq]  a.active {
+    background-color: #B99470;
+    color: #FEFAE0;
+}
+
+.nav-item[b-g8o6n169oq]  .nav-link:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: #FEFAE0;
+}
+
+.nav-scrollable[b-g8o6n169oq] {
+    display: none;
+}
+
+.navbar-toggler:checked ~ .nav-scrollable[b-g8o6n169oq] {
+    display: block;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-g8o6n169oq] {
+        display: none;
+    }
+
+    .nav-scrollable[b-g8o6n169oq] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}
+/* _content/BlazorApp/Components/LoadingSpinner.razor.rz.scp.css */
+.container[b-rkvhds67x3] {
+    --uib-size: 40px;
+    --uib-color: #b99470;
+    --uib-speed: 1.5s;
+    --dot-size: calc(var(--uib-size) * 0.17);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: var(--uib-size);
+    width: var(--uib-size);
+    animation: smoothRotate-b-rkvhds67x3 calc(var(--uib-speed) * 1.8) linear infinite;
+}
+
+.dot[b-rkvhds67x3] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    animation: rotate-b-rkvhds67x3 var(--uib-speed) ease-in-out infinite;
+}
+
+    .dot[b-rkvhds67x3]::before {
+        content: '';
+        height: var(--dot-size);
+        width: var(--dot-size);
+        border-radius: 50%;
+        background-color: var(--uib-color);
+        transition: background-color 0.3s ease;
+    }
+
+    .dot:nth-child(2)[b-rkvhds67x3],
+    .dot:nth-child(2)[b-rkvhds67x3]::before {
+        animation-delay: calc(var(--uib-speed) * -0.835 * 0.5);
+    }
+
+    .dot:nth-child(3)[b-rkvhds67x3],
+    .dot:nth-child(3)[b-rkvhds67x3]::before {
+        animation-delay: calc(var(--uib-speed) * -0.668 * 0.5);
+    }
+
+    .dot:nth-child(4)[b-rkvhds67x3],
+    .dot:nth-child(4)[b-rkvhds67x3]::before {
+        animation-delay: calc(var(--uib-speed) * -0.501 * 0.5);
+    }
+
+    .dot:nth-child(5)[b-rkvhds67x3],
+    .dot:nth-child(5)[b-rkvhds67x3]::before {
+        animation-delay: calc(var(--uib-speed) * -0.334 * 0.5);
+    }
+
+    .dot:nth-child(6)[b-rkvhds67x3],
+    .dot:nth-child(6)[b-rkvhds67x3]::before {
+        animation-delay: calc(var(--uib-speed) * -0.167 * 0.5);
+    }
+
+@keyframes rotate-b-rkvhds67x3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    65%, 100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes smoothRotate-b-rkvhds67x3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*.loader {
+    color: #b99470;
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    clip-path: inset(0 100% 0 0);
+    animation: l5 2s steps(11) infinite;
+}
+
+    .loader:before {
+        content: "Loading..."
+    }
+
+@keyframes l5 {
+    to {
+        clip-path: inset(0 -1ch 0 0)
+    }
+}*/
+/* _content/BlazorApp/Components/Pages/About.razor.rz.scp.css */
+.container[b-0r883ib5if] {
+    background-color: #F4F0D9;
+    border-radius: 8px;
+    max-width: 1300px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+    width: 1300px;
+    max-height: 1800px;
+    margin: auto;
+    padding: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.center-logo[b-0r883ib5if] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.content[b-0r883ib5if] {
+    margin-top: 20px;
+    text-align: left;
+    flex-direction: column;
+}
+
+    .content h2[b-0r883ib5if] {
+        font-size: 1.5em;
+        color: #B99470;
+    }
+
+    .content p[b-0r883ib5if] {
+        font-size: 1.1em;
+        line-height: 1.5;
+        margin-bottom: 1em;
+    }
+
+    .content ul[b-0r883ib5if] {
+        margin-left: 20px;
+    }
+/* _content/BlazorApp/Components/Pages/Login.razor.rz.scp.css */
+/* Center the form on the page */
+.login-container[b-1dfqxkzgeh] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #F4F0D9; /* Background color */
+}
+
+/* Card style for the login form */
+.login-card[b-1dfqxkzgeh] {
+    background-color: #FEFAE0;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 150%;
+}
+
+/* Form heading */
+.login-card h2[b-1dfqxkzgeh] {
+    font-size: 1.75rem;
+    color: #B99470;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #A6B37D;
+    padding-bottom: 10px;
+}
+
+/* Form input fields */
+.login-card .form-group[b-1dfqxkzgeh] {
+    margin-bottom: 20px;
+}
+
+.login-card label[b-1dfqxkzgeh] {
+    font-weight: bold;
+    color: #B99470;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-card input[type="text"][b-1dfqxkzgeh],
+.login-card input[type="password"][b-1dfqxkzgeh] {
+    font-family: 'Hack Nerd Font', monospace;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #A6B37D;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.login-card input[type="text"]:focus[b-1dfqxkzgeh],
+.login-card input[type="password"]:focus[b-1dfqxkzgeh] {
+    border-color: #B99470;
+    box-shadow: 0 0 5px #FEFAE0;
+    outline: none;
+}
+
+/* Submit button styling */
+.login-card button[type="submit"][b-1dfqxkzgeh] {
+    background-color: #B99470;
+    color: #FEFAE0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Hack Nerd Font', monospace;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-card button[type="submit"]:hover[b-1dfqxkzgeh] {
+    background-color: #966d54;
+}
+
+/* Forgot password link */
+.login-card .forgot-password[b-1dfqxkzgeh] {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.login-card .forgot-password a[b-1dfqxkzgeh] {
+    color: #B99470;
+    text-decoration: none;
+}
+
+.login-card .forgot-password a:hover[b-1dfqxkzgeh] {
+    color: #A6B37D;
+}
+
+/* Optional: additional margin for spacing */
+.mb-4[b-1dfqxkzgeh] {
+    margin-bottom: 1rem;
+}
+
+
+/* Back to Home button styling */
+.back-button[b-1dfqxkzgeh] {
+    background-color: #A6B37D; /* Use a complementary background color */
+    color: #FEFAE0; /* Button text color to match the palette */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Hack Nerd Font', monospace; /* Keeping the font consistent */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; /* Remove the underline since it's a button */
+}
+
+    .back-button:hover[b-1dfqxkzgeh] {
+        background-color: #8b9d68; /* Slightly darker on hover */
+        transform: scale(1.05); /* Adds a subtle zoom effect on hover */
+    }
+
+    .back-button:active[b-1dfqxkzgeh] {
+        background-color: #748a54; /* Darker for the active click state */
+        transform: scale(0.98); /* Slight shrink effect on click */
+    }
+
+
+/* Back to Home button styling */
+.back-button[b-1dfqxkzgeh] {
+    background-color: #A6B37D; /* Use a complementary background color */
+    color: #FEFAE0; /* Button text color to match the palette */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; /* Remove the underline since it's a button */
+}
+
+    .back-button:hover[b-1dfqxkzgeh] {
+        background-color: #8b9d68; /* Slightly darker on hover */
+        transform: scale(1.05); /* Adds a subtle zoom effect on hover */
+    }
+
+    .back-button:active[b-1dfqxkzgeh] {
+        background-color: #748a54; /* Darker for the active click state */
+        transform: scale(0.98); /* Slight shrink effect on click */
+    }
+
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    .login-card[b-1dfqxkzgeh] {
+        padding: 20px;
+    }
+
+    .login-card h2[b-1dfqxkzgeh] {
+        font-size: 1.5rem;
+    }
+}

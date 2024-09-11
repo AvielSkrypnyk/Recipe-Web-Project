@@ -1,0 +1,19 @@
+﻿@code {
+    [Parameter]
+    public bool IsSubmitting { get; set; }
+}
+
+@if (IsSubmitting)
+{
+    <div class="container" style="margin: 20px">
+        <div class="dot"> </div>
+        <div class="dot"> </div>
+        <div class="dot"> </div>
+        <div class="dot"> </div>
+        <div class="dot"> </div>
+        <div class="dot"> </div>
+    </div>
+    @* <div class="loader modal-fullscreen"></div> *@
+}
+
+

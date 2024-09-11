@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Title": "Spaghetti Carbonara",
+    "Ingredients": "Spaghetti, Eggs, Parmesan, Pancetta, Pepper",
+    "Instructions": "Boil pasta. Cook pancetta. Mix eggs and cheese. Combine all."
+  },
+  {
+    "Id": 2,
+    "Title": "Skillet Pepper and Garlic Pork Chops",
+    "Ingredients": "4 (1 1/2 inches thick) boneless center-cut pork chops\n\n4 tablespoons Worcestershire sauce\n\n4 tablespoons olive oil, divided\n\n2 cloves garlic, crushed\n\n2 tablespoons coarsely ground black pepper",
+    "Instructions": "Combine pork chops, Worcestershire, 3 tablespoons olive oil, garlic, and black pepper in a large, resealable plastic bag. Marinate chops in the mixture for about 30 minutes.\n\nHeat remaining oil in a heavy skillet over medium-high heat. Remove pork from the marinade and place into the skillet to brown on all sides, 5 to 7 minutes. Reduce heat and let simmer, basting with marinade during cooking, until no longer pink in the centers, 15 to 20 minutes. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C)."
+  },
+  {
+    "Id": 3,
+    "Title": "Simple Hamburger Stroganoff",
+    "Ingredients": "1 (16 ounce) package egg noodles\n\n1 pound lean ground beef\n\n1 (8 ounce) package cream cheese, cut into pieces\n\n1 (6 ounce) can chopped mushrooms, with liquid\n\n1 (.75 ounce) packet dry brown gravy mix\n\n2 (10.5 ounce) cans condensed cream of mushroom soup\n\n1 (8 ounce) container sour cream\n\n\u00BD cup milk",
+    "Instructions": "Fill a large pot with lightly salted water and bring to a rapid boil. Cook egg noodles at a boil until tender yet firm to the bite, 7 to 9 minutes. Drain.\n\nMeanwhile, cook ground beef in a large skillet over medium-high heat, stirring occasionally, until browned and crumbly, 5 to 7 minutes; drain and discard grease. Stir in cream cheese, mushrooms with liquid, and gravy mix; cook and stir over medium heat until cream cheese melts, 2 to 3 minutes. Add condensed soup, sour cream, and milk; cook, stirring occasionally, until smooth and creamy, 3 to 5 minutes.\n\nDrain egg noodles; stir into the beef mixture. Cook until heated through, 2 to 3 minutes."
+  },
+  {
+    "Id": 4,
+    "Title": "Pork Chops with Hatch Green Chili Sauce",
+    "Ingredients": "4 bone-in pork chops, about 3/4-inch thick\n\n1 teaspoon ground cumin\n\n1/2 teaspoon onion powder\n\n1/2 teaspoon smoked paprika\n\n1/2 teaspoon salt, plus more to taste\n\n1/4 teaspoon granulated garlic\n\n1/4 teaspoon freshly ground black pepper, plus more to taste\n\n2 tablespoons avocado oil, or other high temperature oil\n\n1 tablespoon unsalted butter\n\n1/2 cup chopped onion\n\n1 tablespoon all-purpose flour\n\n3/4 cup chicken broth\n\n1 (4 ounce) can chopped Hatch green chiles - mild, medium, or hot\n\n1 teaspoon minced garlic\n\n1/2 lime\n\n2 tablespoons crumbled cotija cheese\n\nfresh cilantro for garnish (optional)",
+    "Instructions": "Pat chops dry with paper towels. Combine cumin, onion powder, smoked paprika, salt, garlic, and pepper in a small bowl. Sprinkle chops on both sides with seasoning blend and rub into the meat.\n\nPour oil into a large, nonstick skillet and heat over medium heat until oil shimmers. Swirl the pan to cover the bottom with oil. Add seasoned chops and cook until browned on both sides, about 3 minutes per side. Remove from the skillet and keep warm.\n\nFor sauce, melt butter in the same skillet, stirring up any browned bits. Add onion and cook, stirring occasionally, until soft, about 5 minutes.\n\nStir in flour, making sure all the flour is coated in oil, and cook until bubbly, about 3 minutes. Add chicken broth to the mixture and stir until smooth.\n\nAdd Hatch chiles and minced garlic, and season with salt and pepper. Cook until sauce thickens, about 2 minutes.\n\nReturn chops and any accumulated juices to the skillet, and simmer, stirring occasionally, about 5 minutes. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C).\n\nSqueeze fresh lime juice over the skillet just before serving. Serve with cheese crumbles and garnish with fresh cilantro, if desired."
+  }
+]

@@ -1,0 +1,370 @@
+/* Color Palette */
+html, body {
+    font-family: 'Hack Nerd Font', monospace;
+    background-color: #F4F0D9; /* Background color */
+    color: #A6B37D; /* Text color */
+}
+
+a, .btn-link {
+    color: #A6B37D;
+}
+
+.btn-primary {
+    color: #FEFAE0;
+    background-color: #B99470;
+    border-color: #A6B37D;
+}
+
+    .btn-primary:hover {
+        background-color: #966d54;
+        border-color: #7a5743;
+    }
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem #FEFAE0, 0 0 0 0.25rem #C0C78C;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+h1:focus {
+    outline: none;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #C0C78C;
+}
+
+.invalid {
+    outline: 1px solid #B99470;
+}
+
+.validation-message {
+    color: #B99470;
+}
+
+.blazor-error-boundary {
+    background: url(data:image/svg+xml;base64,...) no-repeat 1rem center;
+    padding: 1rem 1rem 1rem 3.7rem;
+    color: #FEFAE0;
+}
+
+    .blazor-error-boundary::after {
+        content: "An error has occurred.";
+    }
+
+.darker-border-checkbox.form-check-input {
+    border-color: #929292;
+}
+
+.center-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.recipe-gallery {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    background-color: #FEFAE0;
+    padding: 16px;
+    border: 2px solid #A6B37D;
+    width: calc(33.333% - 32px);
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .gallery-item h4 {
+        color: #B99470;
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+.recipe-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #A6B37D;
+}
+
+.recipe-details p {
+    color: #555;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+    .recipe-details p strong {
+        color: #B99470;
+    }
+
+input[type="text"], textarea {
+    font-family: 'Hack Nerd Font', monospace;
+    padding: 6px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #A6B37D;
+    border-radius: 4px;
+    width: 100%;
+}
+
+    input[type="text"]::placeholder, textarea::placeholder {
+        color: #A6B37D;
+    }
+
+    input[type="text"]:focus, textarea:focus {
+        border-color: #B99470;
+        outline: none;
+        box-shadow: 0 0 5px #FEFAE0;
+    }
+
+label {
+    color: #B99470;
+    font-weight: bold;
+}
+
+#selectFileButton {
+    color: #FEFAE0;
+    background-color: #B99470;
+    border: 1px solid #A6B37D;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+    #selectFileButton:hover {
+        background-color: #966d54;
+    }
+
+/* Footer Styles */
+.site-footer {
+    background-color: #B99470;
+    color: #FEFAE0;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #A6B37D;
+    font-family: 'Hack Nerd Font', monospace;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+    .footer-section h4 {
+        color: #FEFAE0;
+        margin-bottom: 10px;
+    }
+
+    .footer-section p, .footer-section a {
+        color: #FEFAE0;
+        text-decoration: none;
+    }
+
+    .footer-section a {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+        .footer-section a:hover {
+            color: #C0C78C;
+        }
+
+.footer-bottom {
+    border-top: 1px solid #A6B37D;
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #FEFAE0;
+}
+
+/* Recipe Card Styles */
+.recipe-card {
+    background-color: #F4F0D9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    max-height: 400px;
+    margin: 15px;
+    padding: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .recipe-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .recipe-card h4 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #A35638;
+    }
+
+.recipe-details p {
+    font-size: 0.9rem;
+    color: #B07D62;
+}
+
+/* Text Overflow Handling */
+.recipe-details {
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recipe-card .read-more {
+    color: #A35638;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* Recipe Details Page Styles */
+.recipe-details-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FEFAE0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.recipe-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+    .recipe-header h2 {
+        color: #B99470;
+        border-bottom: 2px solid #A6B37D;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+.recipe-photo {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #A6B37D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+.recipe-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recipe-section {
+    background-color: #F4F0D9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .recipe-section h3 {
+        color: #B99470;
+        border-bottom: 1px solid #A6B37D;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .recipe-section ul, .recipe-section ol {
+        padding-left: 20px;
+    }
+
+    .recipe-section li {
+        margin-bottom: 8px;
+        line-height: 1.6;
+    }
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #B99470;
+}
+
+    .loading p {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+/* Search Bar */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #F4F0D9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .input-group .form-control {
+        flex: 1;
+        padding: 10px;
+        border-radius: 4px 0 0 4px;
+        border: 2px solid #A6B37D;
+        outline: none;
+        transition: box-shadow 0.2s ease-in-out;
+        font-family: 'Hack Nerd Font', monospace;
+    }
+
+        .input-group .form-control::placeholder {
+            color: #A6B37D;
+        }
+
+        .input-group .form-control:focus {
+            box-shadow: 0 0 5px rgba(255, 250, 224, 0.5);
+            border-color: #B99470;
+        }
+
+    .input-group .btn {
+        padding: 10px 20px;
+        border-radius: 0 4px 4px 0;
+        background-color: #B99470;
+        color: #FEFAE0;
+        border: 2px solid #A6B37D;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        font-family: 'Hack Nerd Font', monospace;
+    }
+
+        .input-group .btn:hover {
+            background-color: #966d54;
+        }

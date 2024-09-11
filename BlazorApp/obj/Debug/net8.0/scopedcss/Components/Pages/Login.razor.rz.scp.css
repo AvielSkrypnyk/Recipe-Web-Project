@@ -1,0 +1,162 @@
+/* Center the form on the page */
+.login-container[b-1dfqxkzgeh] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #F4F0D9; /* Background color */
+}
+
+/* Card style for the login form */
+.login-card[b-1dfqxkzgeh] {
+    background-color: #FEFAE0;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 150%;
+}
+
+/* Form heading */
+.login-card h2[b-1dfqxkzgeh] {
+    font-size: 1.75rem;
+    color: #B99470;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #A6B37D;
+    padding-bottom: 10px;
+}
+
+/* Form input fields */
+.login-card .form-group[b-1dfqxkzgeh] {
+    margin-bottom: 20px;
+}
+
+.login-card label[b-1dfqxkzgeh] {
+    font-weight: bold;
+    color: #B99470;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-card input[type="text"][b-1dfqxkzgeh],
+.login-card input[type="password"][b-1dfqxkzgeh] {
+    font-family: 'Hack Nerd Font', monospace;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #A6B37D;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.login-card input[type="text"]:focus[b-1dfqxkzgeh],
+.login-card input[type="password"]:focus[b-1dfqxkzgeh] {
+    border-color: #B99470;
+    box-shadow: 0 0 5px #FEFAE0;
+    outline: none;
+}
+
+/* Submit button styling */
+.login-card button[type="submit"][b-1dfqxkzgeh] {
+    background-color: #B99470;
+    color: #FEFAE0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Hack Nerd Font', monospace;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-card button[type="submit"]:hover[b-1dfqxkzgeh] {
+    background-color: #966d54;
+}
+
+/* Forgot password link */
+.login-card .forgot-password[b-1dfqxkzgeh] {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.login-card .forgot-password a[b-1dfqxkzgeh] {
+    color: #B99470;
+    text-decoration: none;
+}
+
+.login-card .forgot-password a:hover[b-1dfqxkzgeh] {
+    color: #A6B37D;
+}
+
+/* Optional: additional margin for spacing */
+.mb-4[b-1dfqxkzgeh] {
+    margin-bottom: 1rem;
+}
+
+
+/* Back to Home button styling */
+.back-button[b-1dfqxkzgeh] {
+    background-color: #A6B37D; /* Use a complementary background color */
+    color: #FEFAE0; /* Button text color to match the palette */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Hack Nerd Font', monospace; /* Keeping the font consistent */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; /* Remove the underline since it's a button */
+}
+
+    .back-button:hover[b-1dfqxkzgeh] {
+        background-color: #8b9d68; /* Slightly darker on hover */
+        transform: scale(1.05); /* Adds a subtle zoom effect on hover */
+    }
+
+    .back-button:active[b-1dfqxkzgeh] {
+        background-color: #748a54; /* Darker for the active click state */
+        transform: scale(0.98); /* Slight shrink effect on click */
+    }
+
+
+/* Back to Home button styling */
+.back-button[b-1dfqxkzgeh] {
+    background-color: #A6B37D; /* Use a complementary background color */
+    color: #FEFAE0; /* Button text color to match the palette */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; /* Remove the underline since it's a button */
+}
+
+    .back-button:hover[b-1dfqxkzgeh] {
+        background-color: #8b9d68; /* Slightly darker on hover */
+        transform: scale(1.05); /* Adds a subtle zoom effect on hover */
+    }
+
+    .back-button:active[b-1dfqxkzgeh] {
+        background-color: #748a54; /* Darker for the active click state */
+        transform: scale(0.98); /* Slight shrink effect on click */
+    }
+
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    .login-card[b-1dfqxkzgeh] {
+        padding: 20px;
+    }
+
+    .login-card h2[b-1dfqxkzgeh] {
+        font-size: 1.5rem;
+    }
+}

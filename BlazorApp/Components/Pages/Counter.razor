@@ -1,0 +1,26 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@*Check is DevExpress working, if you have a DevExpress Subscription you can use it.*@
+@*Check it out here https://www.devexpress.com/subscriptions/asp/*@
+@* <DxButton
+          Text="AAA"
+          CssClass="w-100" /> *@
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+}

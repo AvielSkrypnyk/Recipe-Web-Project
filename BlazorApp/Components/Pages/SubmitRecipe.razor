@@ -1,0 +1,120 @@
+﻿@page "/submit-recipe"
+@inject IHttpClientFactory HttpClientFactory
+@using BlazorApp.Models
+@rendermode InteractiveServer
+
+<h3>Submit a New Recipe</h3>
+
+@if (errorMessage != null)
+{
+    <div class="alert alert-danger"><img src="/images/error-checked.gif" style="height: 25px; margin: 3px"/>@errorMessage</div>
+}
+
+@if (successMessage != null)
+{
+    <div class="alert alert-success"><img src="/images/approve-checked.gif" style="height: 25px; margin: 3px" />@successMessage</div>
+}
+
+<EditForm Model="recipe" OnValidSubmit="OnSubmitRecipe" FormName="SubmitRecipe">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="title">Title:</label>
+        <InputText id="title" class="form-control" @bind-Value="recipe.Title" />
+    </div>
+
+    <div class="form-group">
+        <label for="ingredients">Ingredients:</label>
+        <InputTextArea id="ingredients" class="form-control" @bind-Value="recipe.Ingredients" />
+    </div>
+
+    <div class="form-group">
+        <label for="instructions">Instructions:</label>
+        <InputTextArea id="instructions" class="form-control" @bind-Value="recipe.Instructions" />
+    </div>
+
+    <!-- Commented out the photo input field -->
+    <!--
+    <div class="form-group">
+        <label for="photo">Photo:</label>
+        <InputFile id="photo" OnChange="OnInputFileChanged" class="form-control" />
+        <br />
+    </div>
+    -->
+
+    <div class="d-flex align-items-center">
+        <button class="btn btn-primary" type="submit" disabled="@isSubmitting">
+            @(isSubmitting ? "Submitting..." : "Submit")
+        </button>
+        <LoadingSpinner IsSubmitting="@isSubmitting"></LoadingSpinner>
+    </div>
+    <br />
+</EditForm>
+
+@code {
+    private HttpClient client;
+
+    [SupplyParameterFromForm(FormName = "SubmitRecipe")]
+    private Recipe recipe { get; set; } = new();
+    private string errorMessage;
+    private string successMessage;
+    public bool isSubmitting { get; set; }
+
+    protected override void OnInitialized()
+    {
+        client = HttpClientFactory.CreateClient("MyApiClient");
+    }
+
+    // Commented out file change handler as it's not relevant
+    // private async Task OnInputFileChanged(InputFileChangeEventArgs e)
+    // {
+    //     file = e.File;
+    // }
+
+    private async Task OnSubmitRecipe()
+    {
+        isSubmitting = true;
+        StateHasChanged();
+        errorMessage = null;
+        successMessage = null;
+
+        try
+        {
+           
+
+            // Debugging outputs for the basic fields
+            // Console.WriteLine($"Title: {recipe.Title}");
+            // Console.WriteLine($"Ingredients: {recipe.Ingredients}");
+            // Console.WriteLine($"Instructions: {recipe.Instructions}");
+
+            // Handling the HTTP POST request to submit the recipe
+            var response = await client.PostAsJsonAsync("api/recipes", recipe);
+            if (response.IsSuccessStatusCode)
+            {
+                successMessage = "Recipe submitted successfully!";
+                ResetForm();
+            }
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                errorMessage = $"Failed to submit the recipe: {errorContent}";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+
+    private void ResetForm()
+    {
+        recipe = new Recipe();
+        // No file to reset as the image handling is commented out
+        // file = null;
+    }
+}

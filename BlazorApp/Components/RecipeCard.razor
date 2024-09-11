@@ -1,0 +1,41 @@
+﻿@page "/recipe-card"
+@inject NavigationManager NavigationManager
+
+<div class="recipe-card">
+    <h4>@Title</h4>
+    <div class="recipe-details">
+        <p><strong>Ingredients:</strong> @Ingredients</p>
+        @if (isExpanded)
+        {
+            <p><strong>Instructions:</strong> @Instructions</p>
+        }
+        else
+        {
+            <p><strong>Instructions:</strong> @shortInstructions</p>
+        }
+    </div>
+    <p class="read-more" @onclick="NavigateToDetails">@(isExpanded ? "Read Less" : "Read More")</p>
+</div>
+
+@code {
+    [Parameter] public int Id { get; set; }
+    [Parameter] public string Title { get; set; }
+    [Parameter] public string Ingredients { get; set; }
+    [Parameter] public string Instructions { get; set; }
+
+    private bool isExpanded = false;
+
+    private string shortInstructions => !string.IsNullOrEmpty(Instructions) && Instructions.Length > 100
+        ? Instructions.Substring(0, 100) + "..."
+        : Instructions;
+
+    private void ToggleReadMore()
+    {
+        isExpanded = !isExpanded;
+    }
+
+    private void NavigateToDetails()
+    {
+        NavigationManager.NavigateTo($"/recipe-details/{Id}");
+    }
+}

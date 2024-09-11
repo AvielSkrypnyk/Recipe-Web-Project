@@ -1,0 +1,136 @@
+﻿@page "/login"
+@inject IHttpClientFactory HttpClientFactory
+@using BlazorApp.Models
+@rendermode InteractiveServer
+
+<button class="back-button" style="margin: 5px" onclick="window.location.href='/'">◄ Back to Home</button>
+
+@if (errorMessage != null)
+{
+    <div class="alert alert-danger">
+        <img src="/images/error-checked.gif" style="height: 25px; margin: 3px" />@errorMessage
+    </div>
+}
+
+@if (successMessage != null)
+{
+    <div class="alert alert-success">
+        <img src="/images/approve-checked.gif" style="height: 25px; margin: 3px" />@successMessage
+    </div>
+}
+
+<div class="login-container">
+    <EditForm Model="currentUser" OnValidSubmit="HandleSubmit" FormName="UserLogin">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="login-card">
+            <h3>@(isSignUp ? "User Sign Up" : "User Login")</h3>
+            <br />
+
+            <div class="form-group text-center">
+                <label for="username">Username:</label>
+                <InputText id="username" class="form-control" @bind-Value="currentUser.Username" />
+            </div>
+
+            <div class="form-group text-center">
+                <label for="email">Email:</label>
+                <InputText id="email" class="form-control" @bind-Value="currentUser.Email" />
+            </div>
+
+            <div class="form-group text-center">
+                <label for="password">Password:</label>
+                <InputText id="password" class="form-control" type="password" @bind-Value="currentUser.Password" />
+            </div>
+
+            @if (isSignUp)
+            {
+                <div class="form-group text-center">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <InputText id="confirmPassword" class="form-control" type="password" @bind-Value="((RegisterUser)currentUser).ConfirmPassword" />
+                </div>
+            }
+
+            <div class="d-flex align-items-center justify-content-center">
+                <button class="btn btn-primary" type="submit" disabled="@isSubmitting">
+                    @(isSignUp ? (isSubmitting ? "Signing up..." : "Sign Up") :
+                        (isSubmitting ? "Logging in..." : "Login"))
+                </button>
+                <LoadingSpinner IsSubmitting="@isSubmitting"></LoadingSpinner>
+            </div>
+            <div class="d-flex justify-content-center mb-3" style="margin: 25px">
+                <button type="button" class="btn btn-link" @onclick="ToggleMode">
+                    @(isSignUp ? "Do you a member Login" : "Not a member? Sign Up")
+                </button>
+            </div>
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    private HttpClient client;
+
+    private User currentUser { get; set; } = new User();
+    private string errorMessage;
+    private string successMessage;
+    public bool isSubmitting { get; set; }
+    public bool isSignUp { get; set; }
+
+    protected override void OnInitialized()
+    {
+        client = HttpClientFactory.CreateClient("MyApiClient");
+        ResetForm();
+    }
+
+    private async Task HandleSubmit()
+    {
+        isSubmitting = true;
+        StateHasChanged();
+        errorMessage = null;
+        successMessage = null;
+
+        try
+        {
+            HttpResponseMessage response;
+            if (isSignUp)
+            {
+                // HTTP POST request to Sign Up
+                response = await client.PostAsJsonAsync("api/users/signup", (RegisterUser)currentUser);
+            }
+            else
+            {
+                // HTTP POST request to Login
+                response = await client.PostAsJsonAsync("api/users/login", currentUser);
+            }
+
+            if (response.IsSuccessStatusCode)
+            {
+                successMessage = isSignUp ? "Sign up successful!" : "Login successful!";
+                ResetForm();
+            }
+            else
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                errorMessage = $"{(isSignUp ? "Sign up" : "Login")} failed: {errorContent}";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+
+    private void ResetForm()
+    {
+        currentUser = isSignUp ? new RegisterUser() : new User();
+    }
+
+    private void ToggleMode()
+    {
+        isSignUp = !isSignUp;
+        ResetForm();
+    }
+}
