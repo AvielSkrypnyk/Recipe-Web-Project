@@ -1,5 +1,6 @@
 using BlazorApp.Components;
 using BlazorApp.Data;
+using Blazored.SessionStorage;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,8 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddBlazoredSessionStorage();
+
 
 // Register the DbContext with dependency injection
 builder.Services.AddDbContext<AppDbContext>(options =>

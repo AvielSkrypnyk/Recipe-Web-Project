@@ -462,3 +462,4 @@ C:\Users\AvielSkrypnyk\Documents\Test Solutions\Recipe-Web-Project\BlazorApp\obj
 C:\Users\AvielSkrypnyk\Documents\Test Solutions\Recipe-Web-Project\BlazorApp\obj\Debug\net8.0\BlazorApp.pdb
 C:\Users\AvielSkrypnyk\Documents\Test Solutions\Recipe-Web-Project\BlazorApp\obj\Debug\net8.0\BlazorApp.genruntimeconfig.cache
 C:\Users\AvielSkrypnyk\Documents\Test Solutions\Recipe-Web-Project\BlazorApp\obj\Debug\net8.0\ref\BlazorApp.dll
+C:\Users\AvielSkrypnyk\Documents\Test Solutions\Recipe-Web-Project\BlazorApp\bin\Debug\net8.0\Blazored.SessionStorage.dll

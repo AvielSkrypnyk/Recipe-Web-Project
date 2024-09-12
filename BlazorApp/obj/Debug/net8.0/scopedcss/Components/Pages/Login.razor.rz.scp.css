@@ -149,14 +149,52 @@
         transform: scale(0.98); /* Slight shrink effect on click */
     }
 
+/* Check Box Styling */
+  .checkbox-wrapper-22 .switch[b-1dfqxkzgeh] {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
 
-/* Responsive design for mobile */
-@media (max-width: 600px) {
-    .login-card[b-1dfqxkzgeh] {
-        padding: 20px;
-    }
+  .checkbox-wrapper-22 .switch input[b-1dfqxkzgeh] {
+    display:none;
+  }
 
-    .login-card h2[b-1dfqxkzgeh] {
-        font-size: 1.5rem;
-    }
-}
+  .checkbox-wrapper-22 .slider[b-1dfqxkzgeh] {
+    background-color: #F4F0D9;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+
+  .checkbox-wrapper-22 .slider[b-1dfqxkzgeh]:before {
+    background-color: #FEFAE0;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+
+  .checkbox-wrapper-22 input:checked + .slider[b-1dfqxkzgeh] {
+    background-color: #748a54;
+  }
+
+  .checkbox-wrapper-22 input:checked + .slider[b-1dfqxkzgeh]:before {
+    transform: translateX(26px);
+  }
+
+  .checkbox-wrapper-22 .slider.round[b-1dfqxkzgeh] {
+    border-radius: 34px;
+  }
+
+  .checkbox-wrapper-22 .slider.round[b-1dfqxkzgeh]:before {
+    border-radius: 50%;
+  }
