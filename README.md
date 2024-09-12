@@ -37,8 +37,8 @@ This website serves as my playground for practicing Blazor. Here, I will try out
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/blazor-learning-project.git
-    cd blazor-learning-project
+    git clone https://github.com/AvielSrypnyk/Recipe-Web-Project.git
+    cd Recipe-Web-Project/BlazorApp
     ```
 
 2. **Build the project:**
@@ -53,7 +53,7 @@ This website serves as my playground for practicing Blazor. Here, I will try out
 
 4. **Open your browser and navigate to:**
     ```
-    http://localhost:5000
+    http://localhost:5120/
     ```
 
 ## Project Structure
